@@ -26,5 +26,10 @@ namespace To_Do_Liste_in_Windows_GUI
         {
 
         }
+
+        private void Label_input_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
