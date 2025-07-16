@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-Do-Liste-in-Windows-GUI", "To-Do-Liste-in-Windows-GUI.csproj", "{AA7360F3-8072-449D-80B7-E20520221142}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To_Do_Liste_in_Windows_GUI", "To_Do_Liste_in_Windows_GUI.csproj", "{AA7360F3-8072-449D-80B7-E20520221142}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{84D27F74-D2BA-6C25-2661-968F101900D9}"
 	ProjectSection(SolutionItems) = preProject
