@@ -16,24 +16,10 @@ namespace To_Do_Liste_in_Windows_GUI
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label_input_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
 
         private void TO_DO_erstellen_Click(object sender, EventArgs e)
         {
