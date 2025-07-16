@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.TO_DO_erstellen = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -61,13 +61,17 @@
             this.panel1.Size = new System.Drawing.Size(818, 189);
             this.panel1.TabIndex = 1;
             // 
-            // panel2
+            // TO_DO_erstellen
             // 
-            this.panel2.Controls.Add(this.listBox1);
-            this.panel2.Location = new System.Drawing.Point(0, 297);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(818, 480);
-            this.panel2.TabIndex = 2;
+            this.TO_DO_erstellen.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.TO_DO_erstellen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TO_DO_erstellen.Location = new System.Drawing.Point(205, 107);
+            this.TO_DO_erstellen.Name = "TO_DO_erstellen";
+            this.TO_DO_erstellen.Size = new System.Drawing.Size(404, 59);
+            this.TO_DO_erstellen.TabIndex = 2;
+            this.TO_DO_erstellen.Text = "TO DO erstellen";
+            this.TO_DO_erstellen.UseVisualStyleBackColor = true;
+            this.TO_DO_erstellen.Click += new System.EventHandler(this.TO_DO_erstellen_Click);
             // 
             // textBox1
             // 
@@ -80,6 +84,14 @@
             this.textBox1.Size = new System.Drawing.Size(604, 45);
             this.textBox1.TabIndex = 1;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.listBox1);
+            this.panel2.Location = new System.Drawing.Point(0, 297);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(818, 480);
+            this.panel2.TabIndex = 2;
+            // 
             // listBox1
             // 
             this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -87,19 +99,8 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(0, 0);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1023, 600);
+            this.listBox1.Size = new System.Drawing.Size(818, 480);
             this.listBox1.TabIndex = 0;
-            // 
-            // TO_DO_erstellen
-            // 
-            this.TO_DO_erstellen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TO_DO_erstellen.Location = new System.Drawing.Point(312, 105);
-            this.TO_DO_erstellen.Name = "TO_DO_erstellen";
-            this.TO_DO_erstellen.Size = new System.Drawing.Size(161, 48);
-            this.TO_DO_erstellen.TabIndex = 2;
-            this.TO_DO_erstellen.Text = "TO DO erstellen";
-            this.TO_DO_erstellen.UseVisualStyleBackColor = true;
-            this.TO_DO_erstellen.Click += new System.EventHandler(this.TO_DO_erstellen_Click);
             // 
             // Form1
             // 

@@ -32,9 +32,28 @@ namespace To_Do_Liste_in_Windows_GUI
 
         }
 
+        
+
+
         private void TO_DO_erstellen_Click(object sender, EventArgs e)
         {
+            // 1. Text aus der TextBox holen
+            string eingabeText = textBox1.Text;
 
+            // 2. Prüfen ob Text eingegeben wurde
+            if (eingabeText.Length > 0)
+            {
+                // 3. Neues ToDo erstellen
+                ToDo neueseToDo = new ToDo();
+                neueseToDo.Text = eingabeText;
+
+                // 4. ToDo zur ListBox hinzufügen
+                listBox1.Items.Add(neueseToDo);
+
+                // 5. TextBox leeren für nächste Eingabe
+                textBox1.Clear();
+            }
         }
+
     }
 }
