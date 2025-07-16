@@ -37,6 +37,7 @@ namespace To_Do_Liste_in_Windows_GUI
 
         private void TO_DO_erstellen_Click(object sender, EventArgs e)
         {
+
             // 1. Text aus der TextBox holen
             string eingabeText = textBox1.Text;
 
